@@ -13,6 +13,36 @@
   }
 }
 
+.card {
+  transition: 0.2s;
+  width: 260px;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+}
+.card-body {
+  padding: 10px;
+}
+.card h3 {
+  margin: 8px 0 0 0;
+}
+.card p {
+  font-size: 14px;
+}
+.container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.card-header {
+  position: relative;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +65,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+}
+.place {
+  position: relative;
 }
